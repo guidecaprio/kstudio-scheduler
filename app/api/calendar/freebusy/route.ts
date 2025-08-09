@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import { getCalendarClient, CALENDAR_ID } from "../../../../lib/google";
-
 /** GET /api/calendar/freebusy?start=YYYY-MM-DDTHH:mm:ssZ&end=YYYY-MM-DDTHH:mm:ssZ */
 export async function GET(req: Request) {
   try {
